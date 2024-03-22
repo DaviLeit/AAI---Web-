@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* Adicionando a imagem no fundo da tela */
+    background-color: #01041B;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    height: 10vh;
+    background-color: #05072F;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo{
+    /*Define uma largura para o Logo */
+    width: 80px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 30px;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 120px;
+    color: white;
+    margin-left: 80px;
+}
+
+h1::before{
+    color: #CF092D;
+    content: "Music";
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 85vh;
+    width: 100vw;
+}
+
+div{
+    height: 100%;
+    width: 100%;
+}
+
+.capa{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    height: 90px;
+    background-color: aqua;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    background-color: #05072F;
+    height: 5vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #CF092D;
+    border: 0px;
+    height: 10vh;
+    width: 15vw;
+    border-radius: 40px;
+    font-size: 30px;
+}
+
+.start{
+    color: white;
+    background-color: #410093;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 0px;
+    height: 10vh;
+    width: 15vw;
+    border-radius: 40px;
+    font-size: 30px;
+}
+
+.titulored{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.titulored::before{
+    color: #CF092D;
+    content: "FECAF";
+}
+
+.texto{
+    color: white;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-left: 80px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.botoes button{
+    margin-right: 50px;
+}
+
+p{
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.botaobranco{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.botaobranco a{
+    font-size: 20px;
+}
+
+span button{
+    border: 0;
+    background: 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.create{
+    color: #CF092D;
+    width: 240px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.help{
+    margin-right: 20px;
+    border-right: 3px solid #CF092D;
+    padding-right: 30px;
+}
